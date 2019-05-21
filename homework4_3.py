@@ -5,7 +5,7 @@ Train1V = int(input('Enter the speed of the first train: '))
 Train2V = int(input('Enter the speed of the second train: '))
 TimeForTrain1 = 4 / Train1V
 TimeForTrain2 = 6 / Train2V
-if TimeForTrain1 <= TimeForTrain2:
+if TimeForTrain1 < TimeForTrain2:
     print('Trains did not clash')
 else:
     print('Trains are clashed')
